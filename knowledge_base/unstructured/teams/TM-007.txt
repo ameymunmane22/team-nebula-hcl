@@ -1,0 +1,5 @@
+Northstar Teams | APPDEV support channel
+Thread: TM-007
+2026-08-17T09:00:00+00:00 | EMP005: Investigating INC01007. Users receive application session timeout. Observed during peak usage.
+2026-08-19T09:00:00+00:00 | EMP005: Renew certificate through change process
+2026-08-19T09:00:00+00:00 | Support coordinator: Record the evidence against asset AST007 and follow change approval.

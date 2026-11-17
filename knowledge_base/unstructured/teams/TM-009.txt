@@ -1,0 +1,5 @@
+Northstar Teams | SECOPS support channel
+Thread: TM-009
+2026-08-19T09:00:00+00:00 | EMP012: Investigating INC01009. Monitoring detects unfamiliar sign-in location. Observed during peak usage.
+2026-08-21T09:00:00+00:00 | EMP012: Investigate logs and revoke sessions if confirmed
+2026-08-21T09:00:00+00:00 | Support coordinator: Record the evidence against asset AST009 and follow change approval.

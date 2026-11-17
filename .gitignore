@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Observability logs (local run buffers)
+data/observability/*.jsonl
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Uploaded documents
+knowledge_base/unstructured/upload/

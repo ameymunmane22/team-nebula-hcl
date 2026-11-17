@@ -1,0 +1,995 @@
+{
+  "total": 30,
+  "issues": [
+    {
+      "id": "20000",
+      "key": "OPS-201",
+      "fields": {
+        "summary": "Prevent recurrence: VPN connection fails",
+        "description": "Investigate remote client reports dns lookup timeout. Candidate corrective action: Restore approved DNS settings and restart VPN client.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP001"
+        },
+        "created": "2026-08-13T09:00:00+00:00",
+        "updated": "2026-08-16T09:00:00+00:00",
+        "labels": [
+          "network",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01001",
+        "asset_id": "AST001",
+        "acl_groups": [
+          "NETOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-201"
+    },
+    {
+      "id": "20001",
+      "key": "OPS-202",
+      "fields": {
+        "summary": "Prevent recurrence: MFA prompt loop",
+        "description": "Investigate repeated authentication requests after successful sign-in. Candidate corrective action: Revoke stale session and re-register approved MFA method.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP002"
+        },
+        "created": "2026-08-15T09:00:00+00:00",
+        "updated": "2026-08-18T09:00:00+00:00",
+        "labels": [
+          "identity",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01003",
+        "asset_id": "AST003",
+        "acl_groups": [
+          "IAM",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-202"
+    },
+    {
+      "id": "20002",
+      "key": "OPS-203",
+      "fields": {
+        "summary": "Prevent recurrence: Laptop disk encryption alert",
+        "description": "Investigate device reports encryption recovery on boot. Candidate corrective action: Verify asset identity and use approved recovery procedure.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP003"
+        },
+        "created": "2026-08-17T09:00:00+00:00",
+        "updated": "2026-08-20T09:00:00+00:00",
+        "labels": [
+          "endpoint",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01005",
+        "asset_id": "AST005",
+        "acl_groups": [
+          "ITOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-203"
+    },
+    {
+      "id": "20003",
+      "key": "OPS-204",
+      "fields": {
+        "summary": "Prevent recurrence: ERP login error",
+        "description": "Investigate users receive application session timeout. Candidate corrective action: Renew certificate through change process.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP017"
+        },
+        "created": "2026-08-19T09:00:00+00:00",
+        "updated": "2026-08-22T09:00:00+00:00",
+        "labels": [
+          "application",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01007",
+        "asset_id": "AST007",
+        "acl_groups": [
+          "APPDEV",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-204"
+    },
+    {
+      "id": "20004",
+      "key": "OPS-205",
+      "fields": {
+        "summary": "Prevent recurrence: Suspicious sign-in alert",
+        "description": "Investigate monitoring detects unfamiliar sign-in location. Candidate corrective action: Investigate logs and revoke sessions if confirmed.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP018"
+        },
+        "created": "2026-08-21T09:00:00+00:00",
+        "updated": "2026-08-24T09:00:00+00:00",
+        "labels": [
+          "security",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01009",
+        "asset_id": "AST009",
+        "acl_groups": [
+          "SECOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-205"
+    },
+    {
+      "id": "20005",
+      "key": "OPS-206",
+      "fields": {
+        "summary": "Prevent recurrence: Backup job fails",
+        "description": "Investigate nightly database backup reports insufficient space. Candidate corrective action: Apply approved retention policy and rerun backup.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP004"
+        },
+        "created": "2026-08-23T09:00:00+00:00",
+        "updated": "2026-08-26T09:00:00+00:00",
+        "labels": [
+          "database",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01011",
+        "asset_id": "AST006",
+        "acl_groups": [
+          "DBA",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-206"
+    },
+    {
+      "id": "20006",
+      "key": "OPS-207",
+      "fields": {
+        "summary": "Prevent recurrence: VPN connection fails",
+        "description": "Investigate remote client reports dns lookup timeout. Candidate corrective action: Restore approved DNS settings and restart VPN client.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP001"
+        },
+        "created": "2026-08-25T09:00:00+00:00",
+        "updated": "2026-08-28T09:00:00+00:00",
+        "labels": [
+          "network",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01013",
+        "asset_id": "AST001",
+        "acl_groups": [
+          "NETOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-207"
+    },
+    {
+      "id": "20007",
+      "key": "OPS-208",
+      "fields": {
+        "summary": "Prevent recurrence: MFA prompt loop",
+        "description": "Investigate repeated authentication requests after successful sign-in. Candidate corrective action: Revoke stale session and re-register approved MFA method.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP002"
+        },
+        "created": "2026-08-27T09:00:00+00:00",
+        "updated": "2026-08-30T09:00:00+00:00",
+        "labels": [
+          "identity",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01015",
+        "asset_id": "AST003",
+        "acl_groups": [
+          "IAM",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-208"
+    },
+    {
+      "id": "20008",
+      "key": "OPS-209",
+      "fields": {
+        "summary": "Prevent recurrence: Laptop disk encryption alert",
+        "description": "Investigate device reports encryption recovery on boot. Candidate corrective action: Verify asset identity and use approved recovery procedure.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP003"
+        },
+        "created": "2026-08-29T09:00:00+00:00",
+        "updated": "2026-09-01T09:00:00+00:00",
+        "labels": [
+          "endpoint",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01017",
+        "asset_id": "AST005",
+        "acl_groups": [
+          "ITOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-209"
+    },
+    {
+      "id": "20009",
+      "key": "OPS-210",
+      "fields": {
+        "summary": "Prevent recurrence: ERP login error",
+        "description": "Investigate users receive application session timeout. Candidate corrective action: Renew certificate through change process.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP011"
+        },
+        "created": "2026-08-31T09:00:00+00:00",
+        "updated": "2026-09-03T09:00:00+00:00",
+        "labels": [
+          "application",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01019",
+        "asset_id": "AST007",
+        "acl_groups": [
+          "APPDEV",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-210"
+    },
+    {
+      "id": "20010",
+      "key": "OPS-211",
+      "fields": {
+        "summary": "Prevent recurrence: Suspicious sign-in alert",
+        "description": "Investigate monitoring detects unfamiliar sign-in location. Candidate corrective action: Investigate logs and revoke sessions if confirmed.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP006"
+        },
+        "created": "2026-09-02T09:00:00+00:00",
+        "updated": "2026-09-05T09:00:00+00:00",
+        "labels": [
+          "security",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01021",
+        "asset_id": "AST009",
+        "acl_groups": [
+          "SECOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-211"
+    },
+    {
+      "id": "20011",
+      "key": "OPS-212",
+      "fields": {
+        "summary": "Prevent recurrence: Backup job fails",
+        "description": "Investigate nightly database backup reports insufficient space. Candidate corrective action: Apply approved retention policy and rerun backup.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP016"
+        },
+        "created": "2026-09-04T09:00:00+00:00",
+        "updated": "2026-09-07T09:00:00+00:00",
+        "labels": [
+          "database",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01023",
+        "asset_id": "AST006",
+        "acl_groups": [
+          "DBA",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-212"
+    },
+    {
+      "id": "20012",
+      "key": "OPS-213",
+      "fields": {
+        "summary": "Prevent recurrence: VPN connection fails",
+        "description": "Investigate remote client reports dns lookup timeout. Candidate corrective action: Restore approved DNS settings and restart VPN client.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP001"
+        },
+        "created": "2026-09-06T09:00:00+00:00",
+        "updated": "2026-09-09T09:00:00+00:00",
+        "labels": [
+          "network",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01025",
+        "asset_id": "AST001",
+        "acl_groups": [
+          "NETOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-213"
+    },
+    {
+      "id": "20013",
+      "key": "OPS-214",
+      "fields": {
+        "summary": "Prevent recurrence: MFA prompt loop",
+        "description": "Investigate repeated authentication requests after successful sign-in. Candidate corrective action: Revoke stale session and re-register approved MFA method.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP008"
+        },
+        "created": "2026-09-08T09:00:00+00:00",
+        "updated": "2026-09-11T09:00:00+00:00",
+        "labels": [
+          "identity",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01027",
+        "asset_id": "AST003",
+        "acl_groups": [
+          "IAM",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-214"
+    },
+    {
+      "id": "20014",
+      "key": "OPS-215",
+      "fields": {
+        "summary": "Prevent recurrence: Laptop disk encryption alert",
+        "description": "Investigate device reports encryption recovery on boot. Candidate corrective action: Verify asset identity and use approved recovery procedure.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP015"
+        },
+        "created": "2026-09-10T09:00:00+00:00",
+        "updated": "2026-09-13T09:00:00+00:00",
+        "labels": [
+          "endpoint",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01029",
+        "asset_id": "AST005",
+        "acl_groups": [
+          "ITOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-215"
+    },
+    {
+      "id": "20015",
+      "key": "OPS-216",
+      "fields": {
+        "summary": "Prevent recurrence: ERP login error",
+        "description": "Investigate users receive application session timeout. Candidate corrective action: Renew certificate through change process.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP011"
+        },
+        "created": "2026-09-12T09:00:00+00:00",
+        "updated": "2026-09-15T09:00:00+00:00",
+        "labels": [
+          "application",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01031",
+        "asset_id": "AST007",
+        "acl_groups": [
+          "APPDEV",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-216"
+    },
+    {
+      "id": "20016",
+      "key": "OPS-217",
+      "fields": {
+        "summary": "Prevent recurrence: Suspicious sign-in alert",
+        "description": "Investigate monitoring detects unfamiliar sign-in location. Candidate corrective action: Investigate logs and revoke sessions if confirmed.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP006"
+        },
+        "created": "2026-09-14T09:00:00+00:00",
+        "updated": "2026-09-17T09:00:00+00:00",
+        "labels": [
+          "security",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01033",
+        "asset_id": "AST009",
+        "acl_groups": [
+          "SECOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-217"
+    },
+    {
+      "id": "20017",
+      "key": "OPS-218",
+      "fields": {
+        "summary": "Prevent recurrence: Backup job fails",
+        "description": "Investigate nightly database backup reports insufficient space. Candidate corrective action: Apply approved retention policy and rerun backup.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP016"
+        },
+        "created": "2026-09-16T09:00:00+00:00",
+        "updated": "2026-09-19T09:00:00+00:00",
+        "labels": [
+          "database",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01035",
+        "asset_id": "AST006",
+        "acl_groups": [
+          "DBA",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-218"
+    },
+    {
+      "id": "20018",
+      "key": "OPS-219",
+      "fields": {
+        "summary": "Prevent recurrence: VPN connection fails",
+        "description": "Investigate remote client reports dns lookup timeout. Candidate corrective action: Restore approved DNS settings and restart VPN client.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP001"
+        },
+        "created": "2026-09-18T09:00:00+00:00",
+        "updated": "2026-09-21T09:00:00+00:00",
+        "labels": [
+          "network",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01037",
+        "asset_id": "AST001",
+        "acl_groups": [
+          "NETOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-219"
+    },
+    {
+      "id": "20019",
+      "key": "OPS-220",
+      "fields": {
+        "summary": "Prevent recurrence: MFA prompt loop",
+        "description": "Investigate repeated authentication requests after successful sign-in. Candidate corrective action: Revoke stale session and re-register approved MFA method.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP014"
+        },
+        "created": "2026-09-20T09:00:00+00:00",
+        "updated": "2026-09-23T09:00:00+00:00",
+        "labels": [
+          "identity",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01039",
+        "asset_id": "AST003",
+        "acl_groups": [
+          "IAM",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-220"
+    },
+    {
+      "id": "20020",
+      "key": "OPS-221",
+      "fields": {
+        "summary": "Prevent recurrence: Laptop disk encryption alert",
+        "description": "Investigate device reports encryption recovery on boot. Candidate corrective action: Verify asset identity and use approved recovery procedure.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP015"
+        },
+        "created": "2026-09-22T09:00:00+00:00",
+        "updated": "2026-09-25T09:00:00+00:00",
+        "labels": [
+          "endpoint",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01041",
+        "asset_id": "AST005",
+        "acl_groups": [
+          "ITOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-221"
+    },
+    {
+      "id": "20021",
+      "key": "OPS-222",
+      "fields": {
+        "summary": "Prevent recurrence: ERP login error",
+        "description": "Investigate users receive application session timeout. Candidate corrective action: Renew certificate through change process.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP017"
+        },
+        "created": "2026-09-24T09:00:00+00:00",
+        "updated": "2026-09-27T09:00:00+00:00",
+        "labels": [
+          "application",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01043",
+        "asset_id": "AST007",
+        "acl_groups": [
+          "APPDEV",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-222"
+    },
+    {
+      "id": "20022",
+      "key": "OPS-223",
+      "fields": {
+        "summary": "Prevent recurrence: Suspicious sign-in alert",
+        "description": "Investigate monitoring detects unfamiliar sign-in location. Candidate corrective action: Investigate logs and revoke sessions if confirmed.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP012"
+        },
+        "created": "2026-09-26T09:00:00+00:00",
+        "updated": "2026-09-29T09:00:00+00:00",
+        "labels": [
+          "security",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01045",
+        "asset_id": "AST009",
+        "acl_groups": [
+          "SECOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-223"
+    },
+    {
+      "id": "20023",
+      "key": "OPS-224",
+      "fields": {
+        "summary": "Prevent recurrence: Backup job fails",
+        "description": "Investigate nightly database backup reports insufficient space. Candidate corrective action: Apply approved retention policy and rerun backup.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP004"
+        },
+        "created": "2026-09-28T09:00:00+00:00",
+        "updated": "2026-10-01T09:00:00+00:00",
+        "labels": [
+          "database",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01047",
+        "asset_id": "AST006",
+        "acl_groups": [
+          "DBA",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-224"
+    },
+    {
+      "id": "20024",
+      "key": "OPS-225",
+      "fields": {
+        "summary": "Prevent recurrence: VPN connection fails",
+        "description": "Investigate remote client reports dns lookup timeout. Candidate corrective action: Restore approved DNS settings and restart VPN client.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP007"
+        },
+        "created": "2026-09-30T09:00:00+00:00",
+        "updated": "2026-10-03T09:00:00+00:00",
+        "labels": [
+          "network",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01049",
+        "asset_id": "AST001",
+        "acl_groups": [
+          "NETOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-225"
+    },
+    {
+      "id": "20025",
+      "key": "OPS-226",
+      "fields": {
+        "summary": "Prevent recurrence: MFA prompt loop",
+        "description": "Investigate repeated authentication requests after successful sign-in. Candidate corrective action: Revoke stale session and re-register approved MFA method.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP008"
+        },
+        "created": "2026-10-02T09:00:00+00:00",
+        "updated": "2026-10-05T09:00:00+00:00",
+        "labels": [
+          "identity",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01051",
+        "asset_id": "AST003",
+        "acl_groups": [
+          "IAM",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-226"
+    },
+    {
+      "id": "20026",
+      "key": "OPS-227",
+      "fields": {
+        "summary": "Prevent recurrence: Laptop disk encryption alert",
+        "description": "Investigate device reports encryption recovery on boot. Candidate corrective action: Verify asset identity and use approved recovery procedure.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP003"
+        },
+        "created": "2026-10-04T09:00:00+00:00",
+        "updated": "2026-10-07T09:00:00+00:00",
+        "labels": [
+          "endpoint",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01053",
+        "asset_id": "AST005",
+        "acl_groups": [
+          "ITOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-227"
+    },
+    {
+      "id": "20027",
+      "key": "OPS-228",
+      "fields": {
+        "summary": "Prevent recurrence: ERP login error",
+        "description": "Investigate users receive application session timeout. Candidate corrective action: Renew certificate through change process.",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "assignee": {
+          "accountId": "EMP005"
+        },
+        "created": "2026-10-06T09:00:00+00:00",
+        "updated": "2026-10-09T09:00:00+00:00",
+        "labels": [
+          "application",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01055",
+        "asset_id": "AST007",
+        "acl_groups": [
+          "APPDEV",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-228"
+    },
+    {
+      "id": "20028",
+      "key": "OPS-229",
+      "fields": {
+        "summary": "Prevent recurrence: Suspicious sign-in alert",
+        "description": "Investigate monitoring detects unfamiliar sign-in location. Candidate corrective action: Investigate logs and revoke sessions if confirmed.",
+        "issuetype": {
+          "name": "Task"
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "assignee": {
+          "accountId": "EMP006"
+        },
+        "created": "2026-10-08T09:00:00+00:00",
+        "updated": "2026-10-11T09:00:00+00:00",
+        "labels": [
+          "security",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01057",
+        "asset_id": "AST009",
+        "acl_groups": [
+          "SECOPS",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-229"
+    },
+    {
+      "id": "20029",
+      "key": "OPS-230",
+      "fields": {
+        "summary": "Prevent recurrence: Backup job fails",
+        "description": "Investigate nightly database backup reports insufficient space. Candidate corrective action: Apply approved retention policy and rerun backup.",
+        "issuetype": {
+          "name": "Improvement"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "status": {
+          "name": "To Do"
+        },
+        "assignee": {
+          "accountId": "EMP016"
+        },
+        "created": "2026-10-10T09:00:00+00:00",
+        "updated": "2026-10-13T09:00:00+00:00",
+        "labels": [
+          "database",
+          "preventive-action"
+        ],
+        "incident_ref": "INC01059",
+        "asset_id": "AST006",
+        "acl_groups": [
+          "DBA",
+          "IT_MANAGERS"
+        ]
+      },
+      "self": "https://jira.northstar.example/browse/OPS-230"
+    }
+  ]
+}

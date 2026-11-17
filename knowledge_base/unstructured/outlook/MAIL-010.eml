@@ -1,0 +1,18 @@
+From: rahul.das@northstar.example
+To: appdev@northstar.example
+Subject: Follow-up: Ticket portal returns 503 =?utf-8?b?4oCU?= Bengaluru
+Message-ID: <mail-010@northstar.example>
+Date: Mon, 09 Nov 2026 09:00:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Team,
+
+Following up on INC01022 for AST010. Support portal unavailable during peak h=
+ours. Observed during routine operations.
+
+Resolution: Scale worker pool and inspect slow requests
+
+Please update the incident record after validation.
+Northstar IT

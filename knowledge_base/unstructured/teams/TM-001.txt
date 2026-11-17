@@ -1,0 +1,5 @@
+Northstar Teams | NETOPS support channel
+Thread: TM-001
+2026-08-11T09:00:00+00:00 | EMP013: Investigating INC01001. Remote client reports DNS lookup timeout. Observed during morning login.
+2026-08-13T09:00:00+00:00 | EMP013: Restore approved DNS settings and restart VPN client
+2026-08-13T09:00:00+00:00 | Support coordinator: Record the evidence against asset AST001 and follow change approval.

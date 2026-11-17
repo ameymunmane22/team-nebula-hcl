@@ -1,0 +1,18 @@
+From: kiran.das@northstar.example
+To: netops@northstar.example
+Subject: Follow-up: Intermittent office Wi-Fi =?utf-8?b?4oCU?= Remote users
+Message-ID: <mail-002@northstar.example>
+Date: Mon, 09 Nov 2026 09:00:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Team,
+
+Following up on INC01014 for AST002. Users disconnect during meetings. Observ=
+ed during morning login.
+
+Resolution: Adjust channel plan and verify roaming
+
+Please update the incident record after validation.
+Northstar IT

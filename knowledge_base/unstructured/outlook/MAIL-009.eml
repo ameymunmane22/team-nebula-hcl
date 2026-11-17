@@ -1,0 +1,18 @@
+From: tara.bose@northstar.example
+To: secops@northstar.example
+Subject: Follow-up: Suspicious sign-in alert =?utf-8?b?4oCU?= Bengaluru
+Message-ID: <mail-009@northstar.example>
+Date: Mon, 09 Nov 2026 09:00:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Team,
+
+Following up on INC01021 for AST009. Monitoring detects unfamiliar sign-in lo=
+cation. Observed during routine operations.
+
+Resolution: Investigate logs and revoke sessions if confirmed
+
+Please update the incident record after validation.
+Northstar IT

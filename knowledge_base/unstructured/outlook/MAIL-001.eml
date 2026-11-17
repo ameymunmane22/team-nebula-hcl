@@ -1,0 +1,18 @@
+From: aarav.menon@northstar.example
+To: netops@northstar.example
+Subject: Follow-up: VPN connection fails =?utf-8?b?4oCU?= Bengaluru
+Message-ID: <mail-001@northstar.example>
+Date: Mon, 09 Nov 2026 09:00:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Team,
+
+Following up on INC01013 for AST001. Remote client reports DNS lookup timeout=
+. Observed during scheduled maintenance.
+
+Status: Investigation ongoing. Please retain the relevant logs.
+
+Please update the incident record after validation.
+Northstar IT

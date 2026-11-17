@@ -1,0 +1,18 @@
+From: priya.jain@northstar.example
+To: dba@northstar.example
+Subject: Follow-up: Backup job fails =?utf-8?b?4oCU?= Bengaluru
+Message-ID: <mail-011@northstar.example>
+Date: Mon, 09 Nov 2026 09:00:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Team,
+
+Following up on INC01023 for AST006. Nightly database backup reports insuffic=
+ient space. Observed during morning login.
+
+Status: Investigation ongoing. Please retain the relevant logs.
+
+Please update the incident record after validation.
+Northstar IT

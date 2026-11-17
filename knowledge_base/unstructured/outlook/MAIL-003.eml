@@ -1,0 +1,18 @@
+From: nisha.roy@northstar.example
+To: iam@northstar.example
+Subject: Follow-up: MFA prompt loop =?utf-8?b?4oCU?= Chennai
+Message-ID: <mail-003@northstar.example>
+Date: Mon, 09 Nov 2026 09:00:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Team,
+
+Following up on INC01015 for AST003. Repeated authentication requests after s=
+uccessful sign-in. Observed during scheduled maintenance.
+
+Status: Investigation ongoing. Please retain the relevant logs.
+
+Please update the incident record after validation.
+Northstar IT
