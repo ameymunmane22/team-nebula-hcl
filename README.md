@@ -1,5 +1,17 @@
 # Enterprise-Grade Autonomous Agentic RAG System
 
+---
+
+## 🚀 Live System Dashboards & Links
+
+# **📊 LangSmith Observability Project Dashboard:**  
+# **[👉 Access LangSmith Project Traces & Telemetry](https://smith.langchain.com/o/c0b298c7-3189-4cdc-825b-c0f522c1436b/a/next-generation-ai-copilot/projects/p/e38c9190-47c9-4503-b021-7fc002227aa1)**
+
+# **🌐 Streamlit Multi-Agent Copilot Portal:**  
+# **[👉 Launch Streamlit Web UI (`http://localhost:8501`)](http://localhost:8501)**
+
+---
+
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph%20v1.1-purple.svg?logo=langchain&logoColor=white)](https://github.com/langchain-ai/langgraph)
 [![LangChain](https://img.shields.io/badge/Framework-LangChain%20v1.6-1C3C3C.svg?logo=langchain&logoColor=white)](https://github.com/langchain-ai/langchain)
@@ -244,6 +256,7 @@ Enterprise observability is integrated via `observibilty.py`:
 └───────────────────┴───────────────────┴────────────────────────────────┘
 ```
 
+- **Direct Project Link**: Access the live traces and runs on [LangSmith Project Dashboard (Next-Generation AI Copilot)](https://smith.langchain.com/o/c0b298c7-3189-4cdc-825b-c0f522c1436b/a/next-generation-ai-copilot/projects/p/e38c9190-47c9-4503-b021-7fc002227aa1).
 - **Non-blocking Socket Probing**: Fast 500ms socket check (`is_langsmith_online()`) prevents pipeline freezing in offline or firewalled environments.
 - **Local Fallback Buffering**: Traces and user feedback are asynchronously persisted to `data/observability/traces.jsonl` and `data/observability/feedback.jsonl`.
 - **In-App User Feedback**: Thumbs up / Thumbs down buttons in the Streamlit UI directly record telemetry metrics against LangSmith Run IDs.
